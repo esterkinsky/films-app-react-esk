@@ -9,7 +9,8 @@ class Main extends React.Component {
     state = {
         movies: [],
         loading: true,
-    };
+    }; 
+	
 
     componentDidMount() {
         fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=matrix`)
